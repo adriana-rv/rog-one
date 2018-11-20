@@ -17,8 +17,8 @@
    version="1.1"
    id="svg921"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="rog.svg"
-   inkscape:export-filename="/home/calegria/Documents/academico/documentos/rise/midterm_meeting/rog.png"
+   sodipodi:docname="bg-masthead.svg"
+   inkscape:export-filename="/home/calegria/Documents/academico/documentos/rise/web/rog_one/img/bg-masthead.png"
    inkscape:export-xdpi="100.0125"
    inkscape:export-ydpi="100.0125"
    style="enable-background:new"
@@ -2439,8 +2439,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.52635221"
-     inkscape:cx="866.59089"
-     inkscape:cy="404.34356"
+     inkscape:cx="951.06109"
+     inkscape:cy="206.30022"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -2475,7 +2475,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
