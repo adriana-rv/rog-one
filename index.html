@@ -183,90 +183,97 @@
           <p class="lead mb-5">
 	    The working sessions will take place at <strong>rooms 302,
 	      303</strong> and <strong>304</strong> in the annex
-	      building of the <strong>Instituto de Investigaciones en
+	      building of the <a class="text-white"
+	      href="https://www.iimas.unam.mx/en/home"
+	      target="_blank"><strong>Instituto de Investigaciones en
 	      Matem&aacute;ticas aplicadas y en Sistemas
-	      (IIMAS)</strong>. We recommend <strong>Azul y Oro
-	      restaurant</strong> for lunches. The social dinner will
-	      take place at a restaurant <strong>TBD</strong>.
+	      (IIMAS)</strong></a>. We have several recommendations
+	      for lunches (see below). The social lunch will take
+	      place at <strong>La Mansi&oacute;n</strong> restaurant.
 	  </p>
         </div>
 
 	<!-- working sessions -->
 	<div class="row mb-5">
-	  
           <div class="col-md-4">
 	    <h3 class="text-left">IIMAS</h3>
+	    <a class="text-white"
+	    href="https://www.iimas.unam.mx/en/home" target="_blank">
 	    <img src="./img/iimas.jpg" alt="Instituto de
-	    Matem&aacute;ticas" class="img-fluid mb-2" />
+	    Matem&aacute;ticas" class="img-fluid mb-2" /></a>
 	    <p class="mb-2">
-	    <i class="fa fa-map-marker"></i>&ensp;Circuito exterior
-	      s/n, Ciudad Universitaria.</p>
+	      <i class="fa fa-map-marker"></i>&ensp;Circuito exterior
+	      s/n, Ciudad Universitaria.
+	    </p>
 	    <i class="fa fa-phone"></i>&ensp;(+52) (55) 5622 3213
-           <!--a href="http://www.matem.unam.mx/"
-              target="_blank"><i class="fa fa-globe fa-2x"></i></a>
-
-           <a href="https://www.facebook.com/imateunam"
-              target="_blank"><i class="fa fa-facebook-square
-              fa-2x"></i></a>
-
-           <a href="https://twitter.com/imate_unam"
-              target="_blank"><i class="fa fa-twitter-square
-              fa-2x"></i></a-->
+	  </div>
+	  <div class="col-md-8">
+	    <iframe width="100%" height="400px" frameborder="0"
+	    scrolling="no" marginheight="0" marginwidth="0"
+	    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&q=place_id:ChIJ1TxxnAQAzoURpEpiIhE0iKs"></iframe>
           </div>
-	 
-            <div class="col-md-8">
-              <iframe width="100%" height="400px" frameborder="0"
-                scrolling="no" marginheight="0" marginwidth="0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&q=place_id:ChIJ1TxxnAQAzoURpEpiIhE0iKs"></iframe>
-            </div>
 	</div>
 
-	<!-- lunch -->
-	<div class="row">
+	<!-- lunches -->
+	<div class="row mb-5">
           <div class="col-md-4">
-	    <h3 class="text-left">Azul y Oro restaurant</h3>
-	    <img  src="./img/azul_y_oro.jpg" alt="Instituto de
-	    Matem&aacute;ticas" class="img-fluid mb-2" />
-	    <p class="mb-2"><i class="fa
-	    fa-map-marker"></i>&ensp;Torre de Ingenier&iacute;a, first
-	    floor.</p>
-	   <i class="fa fa-phone"></i>&ensp;(+52) (55) 5623 3500
-	   ext. 1065
+	    <h3 class="text-left">Lunches</h3>
+	    <div class="list-group" id="list-tab" role="tablist">
+	      <button onclick="show_place(1)" type="button"
+	      data-toggle="list" class="list-group-item
+	      list-group-item-action active">Azul y Oro (engineering
+	      tower)</button>
+	      <button onclick="show_place(2)" type="button"
+	      data-toggle="list" class="list-group-item
+	      list-group-item-action">Casa club del
+	      Acad&eacute;mico</button>
+	      <button onclick="show_place(3)" type="button"
+	      data-toggle="list" class="list-group-item
+	      list-group-item-action">Azul y Oro (university cultural
+	      centre)</button>
+	      <button onclick="show_place(4)" type="button"
+	      data-toggle="list" class="list-group-item
+	      list-group-item-action">Nube Siete</button>
+	      <button onclick="show_place(5)" type="button"
+	      data-toggle="list" class="list-group-item
+	      list-group-item-action">Perisur shopping mall</button>
+	      <button onclick="show_place(6)" type="button"
+	      data-toggle="list" class="list-group-item
+	      list-group-item-action">Cuicuilco square</button>
+	    </div>
           </div>
 
 	  <div class="col-md-8">
-            <iframe width="100%" height="400px" frameborder="0"
+	    <div id="map" style="height: 100%;"></div>
+            <!--iframe width="100%" height="400px" frameborder="0"
                     scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&mode=walking&origin=place_id:ChIJ1TxxnAQAzoURpEpiIhE0iKs&destination=place_id:ChIJWwhcZgQAzoURdsPngnro1b8"></iframe>
-          </div>
+                    src="https://www.google.com/maps/d/embed?mid=1LKgyFUJA8y6gGgOIStSku8-ZIu74kr8b"></iframe-->
+          </div>	  
 	</div>
 	
-	<!-- social dinner>
+	<!-- social lunch -->
 	<div class="row">
           <div class="col-md-4">
-	    <h3 class="text-left">Social dinner place</h3>
-	    <a class="portfolio-item mb-2" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-	    <i class="fa fa-map-marker"></i>&ensp;Area de la
-	      Investigación Científica, Circuito exterior, Ciudad
-	    Universitaria, 04510, Ciudad de México.
-	    <br/>
-	    <i class="fa fa-phone"></i>&ensp;(+52) (55) 5622 4520
+	    <h3 class="text-left">La Mansi&oacute;n</h3>
+	    <a class="text-white"
+	    href="http://www.lamansion.com.mx" target="_blank">
+	    <img src="http://www.lamansion.com.mx/assets/images/sucursales/cdmx/periferico-sur.png"
+	    alt="Instituto de Matem&aacute;ticas" class="img-fluid
+	    mb-2" /></a>
+	    <p class="mb-2">
+	      <i class="fa fa-map-marker"></i>&ensp;Perif&eacute;rico
+	      Sur No. 5268, Colonia Pedregal de Carrasco,
+	      Delegaci&oacute;n Coyoac&aacute;n.
+	    </p>
+	    <i class="fa fa-phone"></i>&ensp;(+52) (55) 5335 3573
           </div>
 	 
           <div class="col-md-8">
               <iframe width="100%" height="400px" frameborder="0"
                 scrolling="no" marginheight="0" marginwidth="0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&q=place_id:ChIJWcMOqxoAzoURsYZEf8UmdX8"></iframe>
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&q=place_id:ChIJo_ItSm8AzoURNKJOXofRNUw"></iframe>
             </div>
-	</div-->
+	</div>
 
       </div>
     </section>
@@ -306,7 +313,7 @@
 		<tr>
 		  <th scope="row" class="index"/>
 		  <td>
-		    Alma
+		    Alma Rosario Ar&eacute;valo
 		  </td>
 		  <td>Universidad Nacional Aut&oacute;noma de
 		    M&eacute;xico</td>
@@ -659,12 +666,122 @@
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
 
+    <!-- Google Maps API -->
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&libraries=places&callback=init_map"></script>
+    
     <!-- Enabling bootstrap tooltips -->
     <script>
       $(function () {
 	  $('[data-toggle="tooltip"]').tooltip()
       })
     </script>
-    
+
+    <script>
+      var map;
+      var places_service;
+      var directions_service;
+      var directions_display;
+
+      var place_ids = [ 'ChIJ1TxxnAQAzoURpEpiIhE0iKs',
+      'ChIJWwhcZgQAzoURdsPngnro1b8', 'ChIJGR-z7_j_zYURhOVsOUnRHrI',
+      'ChIJST9iQQsAzoURxv1_wW6WsLU', 'ChIJvUeFagsAzoURBMV2ubEDduI',
+      'ChIJvf3Dh9j_zYUR5PE7iqlmNJM','ChIJm0NDqHsAzoURu2-BCnUgiBk' ];
+
+      var modes = ['', 'WALKING', 'DRIVING', 'DRIVING', 'DRIVING',
+      'DRIVING','DRIVING', ]
+
+      var places = {};
+      var windows = [];
+      
+      function init_map() {
+
+	  // init map and service
+	  
+	  map = new google.maps.Map(document.getElementById('map'), {
+	      mapTypeId: google.maps.MapTypeId.ROADMAP});
+	  places_service = new google.maps.places.PlacesService(map);
+	  directions_service = new google.maps.DirectionsService;
+	  directions_display = new google.maps.DirectionsRenderer;
+	  directions_display.setMap(map);
+
+	  // iimas details
+	  
+	  places_service.getDetails(
+	      {
+		  placeId: place_ids[0],
+		  fields: ['name', 'website', 'geometry', 'place_id']
+              },
+	      function(place, status)
+	      {
+		  if (status === google.maps.places.PlacesServiceStatus.OK)
+		  {
+		      console.log("init ok");
+		      places[0] = place;
+		      show_place(1);
+		  }
+	      });
+      }
+      
+      function show_place(id) {	  
+	  if (places[id])
+	  {
+	      show_directions(id);
+	  }
+	  else
+	  {
+	      places_service.getDetails(
+		  {
+		      placeId: place_ids[id],
+		      fields: ['name', 'website', 'geometry', 'place_id']
+		  },
+		  function(place, status)
+		  {
+		      if (status === google.maps.places.PlacesServiceStatus.OK)
+		      {
+			  places[id] = place;
+			  show_directions(id);
+		      }
+		  });
+	  }
+      }
+
+      function show_directions(id)
+      {
+	  directions_service.route({
+              origin: {placeId: place_ids[0]},
+              destination: {placeId: place_ids[id]},
+              travelMode: modes[id]
+          }, function(response, status) {
+	      if (status === 'OK') {
+		  directions_display.setDirections(response);
+	  
+		  var bounds = response.routes[0].bounds;
+		  map.fitBounds(bounds);
+		  map.setCenter(bounds.getCenter());
+
+		 map.setZoom(17);
+		  
+              } else {
+		  window.alert('Directions request failed due to ' + status);
+              }
+          });
+      }
+
+      /*
+      function add_place(place)
+      {
+	  places.push(place);
+	  marker.push(new google.maps.Marker(
+	      {
+		  label: place.name,
+		  place: {
+		      placeId: place.place_id,
+		      location: place.geometry.location
+		  }
+	      }));
+      }	*/
+    </script>
   </body>
 </html>
