@@ -2,7 +2,6 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -70,7 +69,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto text-justify">
             <p class="lead">
-	      The <strong>ROG</strong> workshop is organized as
+	      The <strong>ROG ONE</strong> workshop is organized as
               part of
               the <strong><a href="https://www.connect-rise.eu/work-package3.php">Work
               Package 3</a></strong>
@@ -79,8 +78,8 @@
               Union's <strong><a href="https://ec.europa.eu/programmes/horizon2020/">Horizon
               2020</a></strong> programme for research and
               innovation. The workshop intends to bring together a
-              group of 15 to 20 researchers to work together on open
-              problems related
+              group of 15 to 20 researchers to work on open problems
+              related
               to<strong><a href="https://www.connect-rise.eu/work-package3.php">
               Restricted Orientation Geometry</a></strong>. The
               problems are to be proposed by the organizers and the
@@ -139,15 +138,13 @@
 		</tr>
 		<tr>
 		  <th scope="row">15:00</th>
-		  <td>Work in groups</td>
-		  <td>Work in groups</td>
-		  <td>Work in groups</td>
+		  <td rowspan="2" colspan="2" class="align-middle">Work in groups</td>
+		  <td rowspan="2" class="align-middle">Work in groups</td>
 		  <td>Wrap up session</td>
 		</tr>
 		<tr>
 		  <th scope="row">18:00</th>
-		  <td colspan="2">End</td>
-		  <td colspan="2">End</td>
+		  <td></td>
 		</tr>
 	      </tbody>
 	    </table>
@@ -174,14 +171,16 @@
           <h2 >Locations</h2>
           <p class="lead mb-5">
 	    The working sessions will take place at <strong>rooms 302,
-	      303</strong> and <strong>304</strong> in the annex
-	      building of the <a class="text-white"
+	      303</strong> and <strong>304</strong> of
+	      the <a class="text-white"
 	      href="https://www.iimas.unam.mx/en/home"
 	      target="_blank"><strong>Instituto de Investigaciones en
 	      Matem&aacute;ticas aplicadas y en Sistemas
-	      (IIMAS)</strong></a>. We have several recommendations
-	      for lunches (see below). The social lunch will take
-	      place at <strong>La Mansi&oacute;n</strong> restaurant.
+	      (IIMAS)</strong></a> annex building. The social lunch
+	      will take place at <strong>La Mansi&oacute;n</strong>
+	      restaurant. There are several options to lunch inside
+	      and near the university campus. See below for some
+	      recommendations.
 	  </p>
         </div>
 
@@ -205,44 +204,10 @@
 	    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCREP275zMaWRp_NgRR8hpsFVI8fU783sg&q=place_id:ChIJ1TxxnAQAzoURpEpiIhE0iKs"></iframe>
           </div>
 	</div>
-
-	<!-- lunches -->
-	<div class="row mb-5">
-          <div class="col-md-4">
-	    <h3 class="text-left">Lunches</h3>
-	    <div class="list-group" id="list-tab" role="tablist">
-	      <button onclick="show_place(1)" type="button"
-	      data-toggle="list" class="list-group-item
-	      list-group-item-action active">Azul y Oro (engineering
-	      tower)</button>
-	      <button onclick="show_place(2)" type="button"
-	      data-toggle="list" class="list-group-item
-	      list-group-item-action">Casa club del
-	      Acad&eacute;mico</button>
-	      <button onclick="show_place(3)" type="button"
-	      data-toggle="list" class="list-group-item
-	      list-group-item-action">Azul y Oro (university cultural
-	      centre)</button>
-	      <button onclick="show_place(4)" type="button"
-	      data-toggle="list" class="list-group-item
-	      list-group-item-action">Nube Siete</button>
-	      <button onclick="show_place(5)" type="button"
-	      data-toggle="list" class="list-group-item
-	      list-group-item-action">Perisur shopping mall</button>
-	      <button onclick="show_place(6)" type="button"
-	      data-toggle="list" class="list-group-item
-	      list-group-item-action">Cuicuilco square</button>
-	    </div>
-          </div>
-
-	  <div class="col-md-8">
-	    <div id="map" style="height: 100%;"></div>
-          </div>	  
-	</div>
 	
 	<!-- social lunch -->
-	<div class="row">
-          <div class="col-md-4">
+	<div class="row mb-5">
+          <div class="col-md-4">	    
 	    <h3 class="text-left">La Mansi&oacute;n</h3>
 	    <a class="text-white"
 	    href="http://www.lamansion.com.mx" target="_blank">
@@ -264,6 +229,139 @@
             </div>
 	</div>
 
+	<!-- lunches -->
+	<div class="row mb-4">
+	  <div class="col-md-12">
+	    <h3 class="text-left mb-3">Recommendations for lunches</h3>
+	    <ul class="nav nav-tabs" role="tablist">
+	      <li class="nav-item">
+		<a class="nav-link active" id="aoet-tab"
+		   data-toggle="pill" href="#aoet-pane" role="tab"
+		   aria-controls="aoet-pane" aria-selected="true"
+		   onclick="show_place(1)">Azul y Oro (Engineering
+		   Tower)</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" id="cca-tab" data-toggle="pill"
+		   href="#cca-pane" role="tab"
+		   aria-controls="cca-pane" aria-selected="false"
+		   onclick="show_place(2)">Casa club del
+		   Acad&eacute;mico</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" id="aoccu-tab" data-toggle="pill"
+		   href="#aoccu-pane" role="tab"
+		   aria-controls="aoccu-pane" aria-selected="false"
+		   onclick="show_place(3)">Azul y Oro (CCU)</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" id="ns-tab" data-toggle="pill"
+		   href="#ns-pane" role="tab" aria-controls="ns-pane"
+		   aria-selected="false" onclick="show_place(4)">Nube
+		   Siete</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" id="psm-tab" data-toggle="pill"
+		   href="#psm-pane" role="tab"
+		   aria-controls="psm-pane" aria-selected="false"
+		   onclick="show_place(5)">Perisur shopping mall</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" id="cs-tab" data-toggle="pill"
+		   href="#cs-pane" role="tab" aria-controls="cs-pane"
+		   aria-selected="false"
+		   onclick="show_place(6)">Cuicuilco square</a>
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+	
+	<div class="row">
+          <div class="col-md-4">
+	    <div class="tab-content">
+	      <div class="tab-pane fade show active" id="aoet-pane" role="tabpanel" aria-labelledby="aoet-tab">
+		<a class="text-white" href="http://www.torreingenieria.unam.mx/htm/serv4.html" target="_blank">
+		  <img src="./img/aoet.jpg" alt="Azul y Oro
+		  (Engineering Tower)" class="img-fluid mb-2" />
+		</a>
+		<p class="mb-2">
+		  <i class="fa fa-map-marker"></i>&ensp;Torre de
+		  Ingenier&iacute;a, first floor.
+		</p>
+		<i class="fa fa-phone"></i>&ensp;(+52) (55) 5623 3500
+		ext. 1065
+	      </div>
+	      <div class="tab-pane fade" id="cca-pane" role="tabpanel" aria-labelledby="cca-tab">
+		  <a class="text-white" href="http://restaurantecasaclubdelacademico.com.mx/" target="_blank">
+		    <img src="./img/cca.jpg" alt="Casa Club del
+		    Acad&eacute;mico" class="img-fluid mb-2" />
+		  </a>
+		  <p class="mb-2">
+		    <i class="fa fa-map-marker"></i>&ensp;Avenida
+		    Ciudad Universitaria No. 301, Ciudad
+		    Universitaria, Delegaci&oacute;n Coyoac&aacute;n.
+		  </p>
+		  <i class="fa fa-phone"></i>&ensp;(+52) (55) 5616
+		  1558
+	      </div>
+	      <div class="tab-pane fade" id="aoccu-pane" role="tabpanel" aria-labelledby="aoccu-tab">
+		<a class="text-white" href="http://azul.rest" target="_blank">
+		  <img src="http://azul.rest/wp-content/uploads/2017/09/cu003.jpg"
+		       alt="Instituto de Matem&aacute;ticas"
+		       class="img-fluid mb-2" />
+		</a>
+		<p class="mb-2">
+		  <i class="fa fa-map-marker"></i>&ensp;Insurgentes
+		  Sur No. 3000, Centro Cultural Universitario,
+		  Delegaci&oacute;n Coyoac&aacute;n.
+		</p>
+		<i class="fa fa-phone"></i>&ensp;(+52) (55) 5424 1426
+	      </div>
+	      <div class="tab-pane fade" id="ns-pane" role="tabpanel" aria-labelledby="ns-tab">
+		<a class="text-white" href="https://muac.unam.mx/nube-siete" target="_blank">
+		  <img src="./img/ns.jpg" alt="Nube Siete"
+		  class="img-fluid mb-2" />
+		</a>
+		<p class="mb-2">
+		  <i class="fa fa-map-marker"></i>&ensp;Ground floor
+		  of the University Museum of Contemporary Arts
+		  (MUAC).<br/> Insurgentes Sur No. 3000, Centro
+		  Cultural Universitario, Delegaci&oacute;n
+		  Coyoac&aacute;n.
+		</p>
+		<i class="fa fa-phone"></i>&ensp;(+52) (55) 5171 9161
+	      </div>
+	      <div class="tab-pane fade" id="psm-pane" role="tabpanel" aria-labelledby="psm-tab">
+		<a class="text-white" href="https://www.galerias.com/Perisur" target="_blank">
+		  <img src="./img/psm.jpg" alt="Perisur Shopping Mall"
+		  class="img-fluid mb-2" />
+		</a>
+		<p class="mb-2">
+		  <i class="fa
+		  fa-map-marker"></i>&ensp;Perif&eacute;rico Sur
+		  No. 4690, Colonia Ampliaci&oacute;n del Pedregal de
+		  San &Aacute;ngel.
+		</p>
+		<i class="fa fa-phone"></i>&ensp;(+52) (55) 5606 8349
+	      </div>
+	      <div class="tab-pane fade" id="cs-pane" role="tabpanel" aria-labelledby="cs-tab">
+		<a class="text-white" href="http://plazainbursa.com/restaurantes.php" target="_blank">
+		  <img src="http://plazainbursa.com/images/galeria/img02_G.jpg"
+		       alt="Cuicuilco Square" class="img-fluid mb-2"/>
+		</a>
+		<p class="mb-2">
+		  <i class="fa fa-map-marker"></i>&ensp;Insurgentes
+		  Sur No. 3500, Colonia Pe&ntilde;a Pobre,
+		  Delegaci&oacute;n Tlalpan.
+		</p>
+		<i class="fa fa-phone"></i>&ensp;(+52) (55) 5666 3988
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-8">
+	    <div id="map" style="height: 400px;"></div>
+          </div>	  
+	</div>
       </div>
     </section>
 
@@ -276,18 +374,12 @@
           <h2 class="mb-5">People</h2>
         </div>
 	
-	<div class="row mb-2 text-center">
-	  <div class="col-lg-6 mx-auto">
-	    <h3>Invited Participants</h3> Confirmed up to November
-	    15<sup>th</sup>, 2018
-	  </div>
-	  <div class="col-lg-5 mx-auto">
-	    <h3 >Organizers</h3>
-	  </div>
-	</div>
-	
         <div class="row">
           <div class="col-lg-6 mx-auto">
+	    <div class="text-center mb-3">
+	      <h3>Invited Participants</h3> Confirmed up to November
+	      15<sup>th</sup>, 2018
+	    </div>
 	    <table class="table table-striped">
 	      <tbody>
 		<tr>
@@ -485,6 +577,9 @@
           </div>
 	  
           <div class="col-lg-5 mx-auto">
+	    <div class="text-center mb-5">
+	      <h3 >Organizers</h3>
+	    </div>
 	    <table class="table">
 	      <thead>
 		<h5>Scientific</h5>
